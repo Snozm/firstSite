@@ -1,0 +1,86 @@
+html{
+    background-color: bisque;    
+}
+.title{
+    color: blue;
+}
+
+#redTitle{
+    color: red;
+}
+
+#greenTitle{
+    color: green;
+}
+h5{
+    color: brown;
+    text-align: center;
+}
+h6{
+    font-size: 10rem;
+    background-image: url(../../../../../Snozm/Pictures/Wallpapers/nuclear\ fusion\ u2.png);
+    color: goldenrod;
+}
+#lolBtn{
+    transition: color 500ms;
+    transition: background-color 500ms;
+}
+
+body, h1, form {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f2f2f2;
+}
+
+form {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent url("https://cdn.iconscout.com/icon/free/png-256/expand-more-6-461500.png%22") no-repeat center right;
+    background-size: 20px;
+    padding-right: 30px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
